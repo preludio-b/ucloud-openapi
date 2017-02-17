@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D231E221B46A43C002D03DD /* ucloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D231E211B46A43C002D03DD /* ucloud.cpp */; };
+		8D231E301B46A45F002D03DD /* AccessRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D231E231B46A45F002D03DD /* AccessRequest.cpp */; };
+		8D231E311B46A45F002D03DD /* BaseRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D231E251B46A45F002D03DD /* BaseRequest.cpp */; };
+		8D231E321B46A45F002D03DD /* HttpRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D231E281B46A45F002D03DD /* HttpRequest.cpp */; };
+		8D231E331B46A45F002D03DD /* TokenRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D231E2A1B46A45F002D03DD /* TokenRequest.cpp */; };
+		8D231E341B46A45F002D03DD /* UcloudOpenApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D231E2C1B46A45F002D03DD /* UcloudOpenApi.cpp */; };
+		8D231E351B46A45F002D03DD /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D231E2E1B46A45F002D03DD /* util.cpp */; };
+		8DE8EEB31DC8386500F50BEE /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE8EEB21DC8386500F50BEE /* libcurl.tbd */; };
+		8DE8EEB51DC8387400F50BEE /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE8EEB41DC8387400F50BEE /* libcrypto.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D231E151B46A2AB002D03DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D231E171B46A2AB002D03DD /* ucloud_openapi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ucloud_openapi; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D231E211B46A43C002D03DD /* ucloud.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; name = ucloud.cpp; path = ../../example/ucloud.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8D231E231B46A45F002D03DD /* AccessRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AccessRequest.cpp; path = ../../src/AccessRequest.cpp; sourceTree = "<group>"; };
+		8D231E241B46A45F002D03DD /* AccessRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccessRequest.h; path = ../../src/AccessRequest.h; sourceTree = "<group>"; };
+		8D231E251B46A45F002D03DD /* BaseRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseRequest.cpp; path = ../../src/BaseRequest.cpp; sourceTree = "<group>"; };
+		8D231E261B46A45F002D03DD /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseRequest.h; path = ../../src/BaseRequest.h; sourceTree = "<group>"; };
+		8D231E271B46A45F002D03DD /* ByteArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ByteArray.h; path = ../../src/ByteArray.h; sourceTree = "<group>"; };
+		8D231E281B46A45F002D03DD /* HttpRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HttpRequest.cpp; path = ../../src/HttpRequest.cpp; sourceTree = "<group>"; };
+		8D231E291B46A45F002D03DD /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = ../../src/HttpRequest.h; sourceTree = "<group>"; };
+		8D231E2A1B46A45F002D03DD /* TokenRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TokenRequest.cpp; path = ../../src/TokenRequest.cpp; sourceTree = "<group>"; };
+		8D231E2B1B46A45F002D03DD /* TokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenRequest.h; path = ../../src/TokenRequest.h; sourceTree = "<group>"; };
+		8D231E2C1B46A45F002D03DD /* UcloudOpenApi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UcloudOpenApi.cpp; path = ../../src/UcloudOpenApi.cpp; sourceTree = "<group>"; };
+		8D231E2D1B46A45F002D03DD /* UcloudOpenApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UcloudOpenApi.h; path = ../../src/UcloudOpenApi.h; sourceTree = "<group>"; };
+		8D231E2E1B46A45F002D03DD /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = ../../src/util.cpp; sourceTree = "<group>"; };
+		8D231E2F1B46A45F002D03DD /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = ../../src/util.h; sourceTree = "<group>"; };
+		8D52266C1B48164E00C20B61 /* openapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = openapi.h; path = ../../src/openapi.h; sourceTree = "<group>"; };
+		8DA935701B4E5A240006D981 /* testkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testkey.h; path = ../../example/testkey.h; sourceTree = "<group>"; };
+		8DE8EEAE1DC8383200F50BEE /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../../../../../../../../usr/local/Cellar/openssl/1.0.2j/lib/libcrypto.a; sourceTree = "<group>"; };
+		8DE8EEB01DC8383E00F50BEE /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../../../../../../../../usr/local/Cellar/openssl/1.0.2j/lib/libcrypto.a; sourceTree = "<group>"; };
+		8DE8EEB21DC8386500F50BEE /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
+		8DE8EEB41DC8387400F50BEE /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = ../../../../../../../../usr/local/Cellar/openssl/1.0.2j/lib/libcrypto.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D231E141B46A2AB002D03DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE8EEB31DC8386500F50BEE /* libcurl.tbd in Frameworks */,
+				8DE8EEB51DC8387400F50BEE /* libcrypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D231E0E1B46A2AB002D03DD = {
+			isa = PBXGroup;
+			children = (
+				8DA935701B4E5A240006D981 /* testkey.h */,
+				8DA9356B1B4E3FE00006D981 /* src */,
+				8D231E211B46A43C002D03DD /* ucloud.cpp */,
+				8D231E181B46A2AB002D03DD /* Products */,
+				8DE8EEB01DC8383E00F50BEE /* libcrypto.a */,
+				8DB3B59C1DC83353005C90D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D231E181B46A2AB002D03DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D231E171B46A2AB002D03DD /* ucloud_openapi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA9356B1B4E3FE00006D981 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8D52266C1B48164E00C20B61 /* openapi.h */,
+				8D231E231B46A45F002D03DD /* AccessRequest.cpp */,
+				8D231E241B46A45F002D03DD /* AccessRequest.h */,
+				8D231E251B46A45F002D03DD /* BaseRequest.cpp */,
+				8D231E261B46A45F002D03DD /* BaseRequest.h */,
+				8D231E271B46A45F002D03DD /* ByteArray.h */,
+				8D231E281B46A45F002D03DD /* HttpRequest.cpp */,
+				8D231E291B46A45F002D03DD /* HttpRequest.h */,
+				8D231E2A1B46A45F002D03DD /* TokenRequest.cpp */,
+				8D231E2B1B46A45F002D03DD /* TokenRequest.h */,
+				8D231E2C1B46A45F002D03DD /* UcloudOpenApi.cpp */,
+				8D231E2D1B46A45F002D03DD /* UcloudOpenApi.h */,
+				8D231E2E1B46A45F002D03DD /* util.cpp */,
+				8D231E2F1B46A45F002D03DD /* util.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		8DB3B59C1DC83353005C90D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DE8EEB41DC8387400F50BEE /* libcrypto.dylib */,
+				8DE8EEB21DC8386500F50BEE /* libcurl.tbd */,
+				8DE8EEAE1DC8383200F50BEE /* libcrypto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D231E161B46A2AB002D03DD /* ucloud_openapi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D231E1E1B46A2AB002D03DD /* Build configuration list for PBXNativeTarget "ucloud_openapi" */;
+			buildPhases = (
+				8D231E131B46A2AB002D03DD /* Sources */,
+				8D231E141B46A2AB002D03DD /* Frameworks */,
+				8D231E151B46A2AB002D03DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ucloud_openapi;
+			productName = ucloud_openapi;
+			productReference = 8D231E171B46A2AB002D03DD /* ucloud_openapi */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D231E0F1B46A2AB002D03DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kt;
+				TargetAttributes = {
+					8D231E161B46A2AB002D03DD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 8D231E121B46A2AB002D03DD /* Build configuration list for PBXProject "ucloud_openapi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D231E0E1B46A2AB002D03DD;
+			productRefGroup = 8D231E181B46A2AB002D03DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D231E161B46A2AB002D03DD /* ucloud_openapi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D231E131B46A2AB002D03DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D231E311B46A45F002D03DD /* BaseRequest.cpp in Sources */,
+				8D231E321B46A45F002D03DD /* HttpRequest.cpp in Sources */,
+				8D231E351B46A45F002D03DD /* util.cpp in Sources */,
+				8D231E331B46A45F002D03DD /* TokenRequest.cpp in Sources */,
+				8D231E221B46A43C002D03DD /* ucloud.cpp in Sources */,
+				8D231E341B46A45F002D03DD /* UcloudOpenApi.cpp in Sources */,
+				8D231E301B46A45F002D03DD /* AccessRequest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D231E1C1B46A2AB002D03DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-migrator/sdk/MacOSX.sdk/usr/include",
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					/usr/local/ssl/lib,
+					/usr/local/opt/openssl/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D231E1D1B46A2AB002D03DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-migrator/sdk/MacOSX.sdk/usr/include",
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/lib,
+					/usr/local/ssl/lib,
+					/usr/local/opt/openssl/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D231E1F1B46A2AB002D03DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/openssl/1.0.2j/lib,
+					"$(inherited)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Debug;
+		};
+		8D231E201B46A2AB002D03DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/openssl/1.0.2j/lib,
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D231E121B46A2AB002D03DD /* Build configuration list for PBXProject "ucloud_openapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D231E1C1B46A2AB002D03DD /* Debug */,
+				8D231E1D1B46A2AB002D03DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D231E1E1B46A2AB002D03DD /* Build configuration list for PBXNativeTarget "ucloud_openapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D231E1F1B46A2AB002D03DD /* Debug */,
+				8D231E201B46A2AB002D03DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D231E0F1B46A2AB002D03DD /* Project object */;
+}
